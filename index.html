@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+   <!-- Makes the webpage responsive on different screen sizes -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+   <!-- Sets the favicon (small icon in the browser tab) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Links the external css file for styling -->
+  <link rel="stylesheet" href="style.css">
+  <title>Avice generator App</title>
+ 
+
+</head>
+<body>
+
+  <!-- Main container for the advice card -->
+  <div class="card" id="card">
+
+    <!-- Displays the advice ID, default is 117 -->
+    <p class="title">advice #<span id="adviceId">117</span></p>
+
+    <!-- Placeholder for displaying advice text -->
+    <div class="advice" id="adviceText">
+      
+    </div>
+
+    <!-- Decorative divider image -->
+    <img src="pattern-divider-desktop.svg" class="divider_desktop" alt="" role="presentation" />
+
+    <!-- Button to fetch new advice, contains an image -->
+    <button id="btn" class="btn">
+      <img src="icon-dice.svg" alt="" />
+    </button>
+  </div>
+
+  <!-- Links the external javascript file to handle functionality-->
+  <script src="script.js"></script>
+</body>
+</html>
+
+
